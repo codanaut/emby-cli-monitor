@@ -78,7 +78,7 @@ def status():
             pass
 
 def run():
-    threading.Timer(60.0, run).start()
+    threading.Timer(120, run).start()
     print("running thread")
     os.system('cls' if os.name == 'nt' else 'clear')
     status()
