@@ -13,7 +13,7 @@ Install the requirements\
 Run the program\
 `python3 embystatus.py`
 
-It updates every 120 seconds, you can change this towards the bottom in the threading timer line. I suggest not going less then 60 seconds, there’s not really any need to make the many requests to your server and it could slow things down.
+It updates every 120 seconds, you can change this towards the bottom in the threading timer line. I suggest not going less then 60 seconds, it could slow things down if you make to many calls a min.
 
 You can change the colors of each line by just changing the colors listed in each one.
 
