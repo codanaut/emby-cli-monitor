@@ -15,7 +15,7 @@ def status():
     shows = str(data['SeriesCount'])
 
     #user count
-    usersresponse = requests.request("GET", "%s/emby/user_usage_stats/user_list" % (url))
+    usersresponse = requests.request("GET", "%s/emby/Users?api_key=%s" % (url,key))
     users = usersresponse.json()
     usercount = len(users)
 
