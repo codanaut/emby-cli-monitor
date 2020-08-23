@@ -2,6 +2,8 @@
 
 a basic cli monitor for emby.
 
+[GUI Version Here](https://github.com/codanaut/emby-monitor)
+
 I love emby but not so much the dashboard, sometimes i just want a quick overview of what's playing without all the extra stuff.
 
 ![alt text](https://i.imgur.com/D25bltg.png)
@@ -17,7 +19,9 @@ Run the program\
 
 It updates every 120 seconds, you can change this towards the bottom in the threading timer line. I suggest not going less then 60 seconds, it could slow things down if you make to many calls a min.
 
-You can change the colors of each line by just changing the colors listed in each one.
+## Changes
+- added playback status
+- added easier way to change colors of each section
 
 ##### Disclaimer
 ###### I’m still learning python so this will probably be refined and tweaked a lot, but I have been running it for a few months now without issue as is. 
